@@ -1,0 +1,13 @@
+.editor-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px auto 25px;
+}
+
+.editor-empty-field-msg{
+    padding-top: 10px;
+    color: red;
+    font-size: 14px;
+}

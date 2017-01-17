@@ -1,0 +1,27 @@
+.note-wrapper{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.note-title{
+    font-size: 20px;
+}
+
+.note-text{
+    display: block;
+    padding-top: 8px;
+    font-size: 15px;
+    color: #8c8c8c;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.note-buttons-wrapper{
+    width: 200px;
+}
+
+.note-close-icon{
+    color: #fff
+}

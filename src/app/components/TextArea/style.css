@@ -1,0 +1,18 @@
+.input-wrapper{
+    margin-bottom: 10px;
+}
+
+.input-invalid{
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.text-area{
+    width: 200px;
+    height: 60px;
+    padding-left: 5px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    font-weight: 100;
+}
