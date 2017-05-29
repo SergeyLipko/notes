@@ -5,8 +5,6 @@ import {
   NOTES_REQUEST, ADD_NOTE, REMOVE_NOTE,
   setNotes} from './';
 
-
-
 function * watchNoteRequest(){
   yield takeLatest(NOTES_REQUEST, notesRequest)
 }
@@ -21,9 +19,6 @@ function * notesRequest(){
     console.log('Notes request error', err);
   }
 }
-
-
-
 
 function * watchNoteAdding(){
   yield takeLatest(ADD_NOTE, noteAdding)
@@ -49,7 +44,6 @@ function * noteRemoving(action){
     console.log('Note removing error', err);
   }
 }
-
 
 export default [
   watchNoteRequest,
